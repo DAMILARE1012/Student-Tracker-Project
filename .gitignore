@@ -1,9 +1,20 @@
-.env
-.vscode-server
-.cache
-.docker
-.dotnet
-.mongodb
-.ssh
-
+# Virtual environments
 FastAPI_venv/
+venv/
+.venv/
+
+# Configs
+.env
+
+# VSCode remote/server
+.vscode-server/
+
+# Cache and temp
+.cache/
+__pycache__/
+
+# Other hidden folders
+.docker/
+.dotnet/
+.mongodb/
+.ssh/
