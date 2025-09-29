@@ -1,0 +1,59 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "tabnine.experimentalAutoImports": true,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "notebook.output.textLineLimit": 200,
+    "chatgpt.lang": "en",
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmPasteNative": false,
+    "code-runner.runInTerminal": true,
+    "cmake.configureOnOpen": true,
+    "remote.SSH.remotePlatform": {
+        "damilare": "linux",
+        "DL_HW4_P2": "linux",
+        "bridges2.psc.edu": "linux",
+        "AWS_10-783": "linux",
+        "91.108.80.251": "linux",
+        "172.29.98.250": "linux",
+        "graham.alliancecan.ca": "linux",
+        "ec2-52-55-224-183.compute-1.amazonaws.com": "linux",
+        "ec2-3-81-5-51.compute-1.amazonaws.com": "linux",
+        "ec2-54-196-84-164.compute-1.amazonaws.com": "linux",
+        "ec2-18-232-111-77.compute-1.amazonaws.com": "linux",
+        "ec2-13-221-50-97.compute-1.amazonaws.com": "linux",
+        "ec2-184-73-34-102.compute-1.amazonaws.com": "linux",
+        "Damilare-CloudNative-AWS": "linux",
+        "54.91.206.156": "linux",
+        "98.86.133.183": "linux",
+        "54.144.194.144": "linux"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "files.autoSave": "afterDelay",
+    "cmake.showOptionsMovedNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.openRepositoryInParentFolders": "never",
+    "python.defaultInterpreterPath": "C:\\Users\\Damilare\\anaconda3\\envs\\DL_MU_Project",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.zip": "default"
+    },
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {},
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "workbench.iconTheme": "file-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.fontSize": 12,
+    "editor.fontSize": 12,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "docker.extension.enableComposeLanguageServer": false
+}

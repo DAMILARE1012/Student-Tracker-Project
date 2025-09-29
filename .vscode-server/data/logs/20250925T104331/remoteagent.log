@@ -1,0 +1,67 @@
+2025-09-25 10:43:31.588 [info] 
+
+
+
+
+2025-09-25 10:43:31.602 [info] Extension host agent started.
+2025-09-25 10:43:31.648 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-09-25 10:43:31.695 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-09-25 10:43:32.282 [info] [<unknown>][4b3a24f0][ManagementConnection] New connection established.
+2025-09-25 10:43:32.284 [info] [<unknown>][bf4fd7ed][ExtensionHostConnection] New connection established.
+2025-09-25 10:43:32.410 [info] [<unknown>][bf4fd7ed][ExtensionHostConnection] <1424> Launched Extension Host Process.
+2025-09-25 10:43:51.836 [info] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/5cc57856-c0ef-4452-88b4-5113985e7626
+2025-09-25 10:43:51.860 [info] Installing extension: github.copilot-chat {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.103.2","date":"2025-08-20T16:45:34.255Z"}}
+2025-09-25 10:43:52.096 [info] Getting Manifest... github.copilot
+2025-09-25 10:43:52.119 [info] Installing extension: github.copilot {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.103.2","date":"2025-08-20T16:45:34.255Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-09-25 10:43:52.728 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3: github.copilot-chat
+2025-09-25 10:43:52.776 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3
+2025-09-25 10:43:54.003 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 1532ms.
+2025-09-25 10:43:54.720 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.372.0: github.copilot
+2025-09-25 10:43:54.752 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.372.0
+2025-09-25 10:43:54.775 [info] Extension installed successfully: github.copilot-chat file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-09-25 10:43:54.775 [info] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-09-25 10:44:17.889 [info] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/00dc6cef-7b8b-4c4e-9f30-62bd05250c43
+2025-09-25 10:44:17.900 [info] Installing extension: github.copilot {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.103.2","date":"2025-08-20T16:45:34.255Z"}}
+2025-09-25 10:44:17.962 [info] Deleted existing extension from disk github.copilot /home/ubuntu/.vscode-server/extensions/github.copilot-1.372.0
+2025-09-25 10:44:18.630 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.372.0: github.copilot
+2025-09-25 10:44:18.640 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.372.0
+2025-09-25 10:44:18.659 [info] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-09-25 10:45:49.576 [info] [<unknown>][4b3a24f0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-25 10:45:49.661 [info] [<unknown>][bf4fd7ed][ExtensionHostConnection] <1424> Extension Host Process exited with code: 0, signal: null.
+2025-09-25 10:45:49.662 [info] Cancelling previous shutdown timeout
+2025-09-25 10:45:49.662 [info] Last EH closed, waiting before shutting down
+2025-09-25 10:45:59.965 [info] [<unknown>][f5a8c733][ManagementConnection] New connection established.
+2025-09-25 10:45:59.975 [info] [<unknown>][3e9ab9da][ExtensionHostConnection] New connection established.
+2025-09-25 10:45:59.981 [info] [<unknown>][3e9ab9da][ExtensionHostConnection] <1610> Launched Extension Host Process.
+2025-09-25 10:46:05.272 [error] CodeExpectedError: Could not find pty 8 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:46:6451)
+    at I.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:46:1839)
+    at s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2938)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at vl.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81574)
+    at vl.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81097)
+    at ps.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80499)
+    at E.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at E.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:24:30159)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-09-25 10:46:05.274 [error] CodeExpectedError: Could not find pty 8 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:46:6451)
+    at I.updateIcon (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:46:1889)
+    at s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2938)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at vl.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81574)
+    at vl.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81097)
+    at ps.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80499)
+    at E.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at E.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/platform/terminal/node/ptyHostMain.js:24:30159)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-09-25 10:50:49.663 [info] New EH opened, aborting shutdown
+2025-09-25 10:50:49.664 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)

@@ -1,0 +1,60 @@
+2025-09-29 20:38:52.482 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-09-29 20:38:52.482 [info] Can't use the Electron fetcher in this environment.
+2025-09-29 20:38:52.482 [info] Using the Node fetch fetcher.
+2025-09-29 20:38:52.482 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-09-29 20:38:52.482 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-09-29 20:38:52.482 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-09-29 20:38:54.629 [info] Logged in as DAMILARE1012
+2025-09-29 20:38:55.426 [info] Got Copilot token for DAMILARE1012
+2025-09-29 20:38:55.438 [info] activationBlocker from 'languageModelAccess' took for 2836ms
+2025-09-29 20:38:55.650 [info] Fetched model metadata in 3036ms 08558b7b-832f-4758-b2ff-b0fc7932ad1d
+2025-09-29 20:38:56.088 [error] Canceled: Canceled
+    at rl (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+    at file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:163577
+    at Array.forEach (<anonymous>)
+    at C4.dispose (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:163517)
+    at LZ.terminate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:116:10194)
+    at x3.terminate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at ws (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:388:10154)
+    at Jh.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:388:8306)
+    at $.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at fo.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at V1.A (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+    at Jh.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+    at $.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at cS.acceptChunk (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+    at file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:7227
+    at Socket.t (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:15251)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-09-29 20:38:56.098 [error] Error getting a session: Canceled: Canceled
+2025-09-29 20:38:56.098 [error] Error getting a session: Canceled: Canceled
+2025-09-29 20:38:56.100 [info] copilot token chat_enabled: undefined, sku: 
+2025-09-29 20:38:56.100 [info] activationBlocker from 'conversationFeature' took for 3506ms
+2025-09-29 20:38:56.102 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2025-09-29 20:38:56.102 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-09-29 20:38:56.102 [error] Canceled: Canceled
+    at new lR (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:162126)
+    at C4.U (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:166736)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:29:164230)
+    at VQ.getAccounts (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:114:9976)
+    at Object.getAccounts (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/vs/workbench/api/node/extensionHostProcess.js:196:101146)
+    at dKe (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:552:52956)
+    at gre (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:552:53486)
+    at n (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:1821:5207)
+    at cT.getOrCreate (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:552:44680)
+    at e3.getAnyGitHubSession (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:1821:5313)
+    at e3.getCopilotToken (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:418:24180)
+    at AO._inspectContext (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:552:59202)
+    at AO._onAuthenticationChange (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:552:61164)
+    at ML.value (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:552:57370)
+    at Xe._deliver (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:385:2932)
+    at Xe._deliverQueue (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:385:3021)
+    at Xe.fire (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:385:3355)
+    at e3._handleAuthChangeEvent (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.30.3/dist/extension.js:418:25547)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
