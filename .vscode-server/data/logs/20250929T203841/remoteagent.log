@@ -14,3 +14,7 @@
 2025-09-29 20:39:08.160 [info] [<unknown>][b5eea600][ExtensionHostConnection] New connection established.
 2025-09-29 20:39:08.160 [info] [<unknown>][317175df][ManagementConnection] New connection established.
 2025-09-29 20:39:08.164 [info] [<unknown>][b5eea600][ExtensionHostConnection] <2191> Launched Extension Host Process.
+2025-09-29 20:43:56.174 [info] New EH opened, aborting shutdown
+2025-09-29 20:43:56.177 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)

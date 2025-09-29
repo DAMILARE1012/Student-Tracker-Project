@@ -1,2 +1,7 @@
 .env
-
+.vscode-server
+.cache
+.docker
+.dotnet
+.mongodb
+.ssh
